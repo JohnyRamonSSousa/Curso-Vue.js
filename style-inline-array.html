@@ -9,7 +9,7 @@
 
         <div id="styles">
 
-            <a href="https://www.hcode.com.br" :style="[fontSizeStyle, colorStyle, linkStyle]">Hcode Treinamentos</a>
+            <a href="https://www.hcode.com.br" :style="[font, fontSizeStyle, colorStyle, linkStyle]">Hcode Treinamentos</a>
 
         </div>
         
@@ -21,13 +21,16 @@
                 el: '#styles',
                 data: {
                     fontSizeStyle: {
-                        fontSize: '30px'
+                        fontSize: '40px'
                     },
                     colorStyle: {
-                        color: 'red'
+                        color: 'blue'
                     },
                     linkStyle: {
                         textDecoration: 'none'
+                    },
+                    font:{
+                        fontFamily: 'arial'
                     }
                 }
             })
